@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.maid.Menupage"
+    >
+
+    <include layout="@layout/base_activity"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/d" />
+
+    <Button
+        android:id="@+id/homebtn"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:text="HOME"
+        android:layout_below="@+id/maidtv"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+
+    <Button
+        android:id="@+id/earnings"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:text="My Earnings"
+        android:layout_below="@+id/homebtn"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center" />
+
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/homebtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="134dp"
+        android:background="@drawable/et_style"
+        android:src="@drawable/ic_logout"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/maidtv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+
+</RelativeLayout>

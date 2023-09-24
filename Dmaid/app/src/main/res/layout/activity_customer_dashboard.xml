@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerDashboard">
+
+    <include
+        layout="@layout/base_activity"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/white"
+        android:stretchColumns="*"
+       >
+
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="S"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="M"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="T"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="W"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="T"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="F"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="23dip"
+                android:text="S"
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/date8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/date9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/date15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/date16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+
+                android:id="@+id/date20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/date22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/date23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+                android:id="@+id/date29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+            <TextView
+                android:id="@+id/date30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+            <TextView
+                android:id="@+id/date35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/et_style"
+                android:padding="16dip"
+                android:text=""
+                android:textColor="#000"
+                android:textSize="12dp" />
+
+
+
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddApartment">
+
+
+    <include layout="@layout/base_activity"/>
+    <Button
+        android:id="@+id/add_apartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD new Apartment"
+        app:layout_constraintBottom_toTopOf="@+id/view_apartment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957" />
+
+
+    <EditText
+        android:id="@+id/edittext_ap"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Apartment Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/apcluster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/apcluster"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Cluster "
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/aparea"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/aparea"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Area"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/apcity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/apcity"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/appin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/appin"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Pin"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/add_apartment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <Button
+        android:id="@+id/view_apartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Apartments"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ADD NEW APARTMENT"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/edittext_ap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

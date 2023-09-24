@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">dmaid</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="terms"><a>I accept the privacy and policy</a></string>
+    <string-array name="apartment">
+        <item>Apartment 1</item>
+        <item>Apartment 2</item>
+        <item>Apartment 3</item>
+        <item>Apartment 4</item>
+        <item>Apartment 5</item>
+        <item>Apartment 6</item>
+
+    </string-array>
+
+    <string name="privacy">               <b>     </b>\n\n
+3)	    Every possible care and efforts are taken while cleaning the apartments/villas/house. The client should give Daily maid access to the inside of the apartment during regular cleaning hours or any additional mutually agreed times.
+4)	    Daily maid services India private limited will not handle any expensive items/ artifacts, hence shall not be responsible for any breakage/damage.
+5)  	Dailymaid services India private limited shall provide services includes the following:  Dusting, Sweeping, Mopping, Dish Washing, Bathroom cleaning and or any other services mutually agreed upon and must not be requested to carry out any of the tasks not stated as part of the services including cleaning of or exposure to hazardous, toxic or other dangerous substances including but not limited to cleaning up human/animal excrement and all human/animal bodily fluids.
+6)  	The client must ensure a safe and comfortable working environment for the maid. The company reserves the right without penalty to suspend the services in the instances of abuse, assault, verbal or physical and shall proceed criminal proceedings as per the law if required.
+7)  	Dailymaid services India private limited will begin performing cleaning services from a date agreed and thereafter will follow the prescheduled time slots.
+8)  	Minimum subscription duration is one month, in case of (discontinuation / stoppage) of services, the client shall inform in advance not less than 7 working days , and any payments for the above mentioned services owed by the client shall be due and payable at the time the subscription is  terminated.
+9)  	Client will pay Daily maid services India private limited the subscription charges on the first day of each month/cycle for service to be performed during the rest of the month.
+10) 	The maids will be verified by company, but as required please be alert, keep your valuable things safely.Dailymaid services India Private limited shall not be responsible for any missing/theft of any item.
+11) 	Any rates offered under specified schemes/ offers in valid for particular period. Daily maid services India private limited can change the subscription rates and when the company feels necessary.
+12) 	Dailymaid services India private limited will provide necessary supervision at the sites to ensure the maids are performing their tasks as per guidelines.
+13) 	The client must not, directly or indirectly engage, employ or contract with any maid to provide services to the client or any associate of the client. The client acknowledges that Dailymaid services India Private Limited may suffer losses and damage including without limitation consequential loss, as a result of a breach of this clause by the client.
+14) 	Dailymaid services India private limited shall provide cleaning and other related services. Daily maid services India private limited shall have the right to change or add terms and conditions which shall be integrated to this registration form and shall not require additional registration form.
+15) 	Subscription valid only upon receiving duly filled registration form.
+16) 	Dailymaid services India private limited billing is direct and does not presume any credit facilities.
+17)	    Membership registration form valid only along with 100% advance of the package subscribed to.
+18)	    Individual membership is nontransferable and customer should inform if any changes whatsoever.
+19) 	Any Non availability/changes in the schedules should be informed at least 24 hour prior to the customer care, failing to do so the schedule shall be deemed to have completed and shall not be carry forwarded.
+20) 	Any request for changes/modifications in the schedules shall be done, subject to the availability of maids in the requested schedule.
+21)	    Every efforts are made to deliver services on time, but any delay due to uncontrollable/unavoidable circumstances, customer is not entitled to any compensation or discount in the rates.
+22)	    In case of the assigned maid doesn’t turns up, Dailymaid services India private limited shall provide an alternate maid subject to the availability of the maid in the respective schedule.
+23) 	Government taxes shall be extra if applicable. The service tariff is subjected to change without notice.
+24) 	The services shall be available on all days in a week except on Sundays and declared national/regional holidays.
+25) 	Dairymaid services India Private Limited shall not be responsible for any financial/materialistic transaction between maid and the client and does not recommend any. \n\n
+Customer responsibilities:\n
+    Customers represent, warrants and covenants to Daily maid services India private limited that:
+    •   	Customers are solely responsible for the data provided in the registration form.
+    •   	Customer shall oblige with the terms and conditions incorporated in the registration form and estimate/receipt.
+    •	    Customer shall not infringe upon the proprietary rights of Daily maid services India private limited.
+    •   	Customer shall comply with all the rules and regulations of Daily maid services India private limited.
+    •   	Customers should use the services for the apartments as stated in the registration form.\n\n
+Termination \n
+    Daily maid services India private limited has absolute discretion without notice to suspend or restrict or expel from the membership of any customer for any reason, including breach of this terms and conditions.
+Governing Law: The terms and conditions and any claim shall be govern in accordance with laws of India.\n\n
+Jurisdiction\n
+    Daily maid services India private limited and customer hereby agree that any action or suit to enforce any right or remedy under these terms and conditions or the registration form shall be brought in the court jurisdiction of Kozhikode.</string>
+
+
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_admin_home">AdminHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_customer_home">CustomerHome</string>
+</resources>

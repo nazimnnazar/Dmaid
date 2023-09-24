@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DateSelection">
+
+    <include layout="@layout/base_activity" />
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:text="CUSTOMIZE YOUR SERVICE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="Starting Date:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textView14"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textView14"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/et_style"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:hint="Select date"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textColorHint="#FF9800" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/editTextDate"
+        android:layout_marginLeft="10dp"
+        android:text="Select Apartment \n           Size:"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/sizespinner"
+        android:layout_below="@+id/editTextDate"
+        android:background="@drawable/et_style"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:autofillHints="Select size"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/sizespinner"
+        android:layout_marginLeft="10dp"
+        android:text="Select Freequency:"
+        android:textSize="15sp"
+        android:textColor="@color/black"/>
+
+    <Spinner
+        android:id="@+id/dayspinner"
+        android:layout_below="@+id/sizespinner"
+        android:background="@drawable/et_style"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:autofillHints="Select size"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/dayspinner"
+        android:layout_marginTop="10dp"
+        android:text="You can Select All Days"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/tview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="Select Days "
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/text1"/>
+
+<LinearLayout
+    android:id="@+id/linera1"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:layout_below="@+id/tview2"
+    android:orientation="horizontal"
+    android:layout_marginHorizontal="20dp" >
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="MO"/>
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="TU"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="WE"/>
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="TH"/>
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="FR"/>
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:button="@android:color/transparent"
+        android:background="@drawable/radio_selector"
+        android:textColor="@drawable/text_color"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tview2"
+        android:elevation="4dp"
+        android:text="SA"/>
+
+
+</LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:text="Select Your convenient Time"
+        android:textSize="15dp"
+        android:layout_below="@+id/linera1"
+        android:textColor="@color/black"/>
+
+
+
+
+
+    <RadioGroup
+        android:id="@+id/radiog"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/tvv1"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        android:layout_marginHorizontal="10dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:textColor="@drawable/text_color"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:elevation="4dp"
+            android:text="8 am-10.30 am" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="132dp"
+            android:layout_height="38dp"
+            android:background="@drawable/radio_selector"
+            android:button="@android:color/transparent"
+            android:elevation="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="1dp"
+            android:text="10.45 am-1.15pm"
+            android:textColor="@drawable/text_color"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selector"
+            android:textColor="@drawable/text_color"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_marginLeft="1dp"
+            android:elevation="4dp"
+            android:text="2 pm-4.30 pm" />
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:id="@+id/confirmbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="confirm"
+        android:layout_marginHorizontal="140dp"
+        android:layout_below="@+id/radiog"/>
+
+
+</RelativeLayout>

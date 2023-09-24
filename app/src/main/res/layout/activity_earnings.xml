@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.maid.Earnings">
+
+    <include layout="@layout/base_activity"/>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/d" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="293dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/et_style"
+        android:gravity="center"
+        android:text="YOUR EARNINGS"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_style"
+        android:layout_margin="40dp"
+        android:layout_below="@+id/textView20"
+        >
+
+        <!-- Table Heading -->
+
+        <TableRow
+            android:background="@color/appcolor"
+            android:paddingVertical="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="EARNINGS"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="AMOUNT"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+        </TableRow>
+
+        <!-- Table Data -->
+
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Direct Earnings"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/direct_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Category Incentive"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+
+
+            <TextView
+                android:id="@+id/category_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Review Incentive"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/review_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Grooming Incentive"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/grooming_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Attendance Incentive"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/attendance_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Special Incentive"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/special_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:paddingVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Total Earnings"
+                android:padding="10sp"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                />
+
+
+            <TextView
+                android:id="@+id/total_er"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textColor="@color/black"
+                android:padding="10sp"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:title="Apartments">
+            <menu>
+                <item
+                    android:id="@+id/add_aprt"
+                    android:icon="@drawable/ic_add_apartment"
+                    android:title="Add New Apartment" />
+
+                <item
+                    android:id="@+id/view_aprt"
+                    android:icon="@drawable/ic_apartment"
+                    android:title="Manage Apartments" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Maids">
+        <menu>
+            <item
+                android:id="@+id/add_maid"
+                android:icon="@drawable/ic_person_add"
+                android:title="Add New Maid" />
+
+            <item
+                android:id="@+id/view_maid"
+                android:icon="@drawable/ic_maids"
+                android:title="Manage Maids" />
+
+        </menu>
+    </item>
+
+    <item android:title="Customers">
+        <menu>
+            <item
+                android:id="@+id/add_cust"
+                android:icon="@drawable/ic_person_add"
+                android:title="Add Customers" />
+
+
+            <item
+                android:id="@+id/view_cust"
+                android:icon="@drawable/ic_customers"
+                android:title="View Customers" />
+
+        </menu>
+    </item>
+</menu>

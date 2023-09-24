@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAddCustomer">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="ADD NEW CUSTOMER"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tvpimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView48"
+        android:background="@drawable/et_style"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_person_grey" />
+
+
+
+    <EditText
+        android:id="@+id/customerfirstname"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="First Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/tvpimg"/>
+
+    <EditText
+        android:id="@+id/custlastname"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/customerfirstname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/custspousename"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Spouse Name"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/custlastname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/custapartment"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Apartment"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/custspousename"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/custdoorno"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Door No"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/custapartment"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/cust"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Address"
+        android:layout_below="@+id/custdoorno"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/customerfamsize"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Family Size"
+        android:inputType="text"
+        android:layout_below="@+id/cust"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/customeremail"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/customerfamsize"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/customerpin"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Pin"
+        android:inputType="number"
+        android:layout_below="@+id/customeremail"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/custcontactnum"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contact Number"
+        android:inputType="number"
+        android:layout_below="@+id/customerpin"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/custwhatsappnum"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Whatsapp Number"
+        android:layout_below="@+id/custcontactnum"
+        android:layout_centerHorizontal="true"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/customerpass"
+        android:layout_width="301dp"
+        android:layout_height="45dp"
+        android:background="@drawable/et_style"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/custwhatsappnum"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/add_apartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="4dp"
+        android:text="ADD CUSTOMER"
+        android:layout_below="@+id/customerpass"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/view_apartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Customers"
+        android:layout_below="@+id/add_apartment"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
+</ScrollView>

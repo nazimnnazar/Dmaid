@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27582325535",
+    "firebase_url": "https://dmaid-eafa6-default-rtdb.firebaseio.com",
+    "project_id": "dmaid-eafa6",
+    "storage_bucket": "dmaid-eafa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27582325535:android:22d3abd768400893e0862a",
+        "android_client_info": {
+          "package_name": "com.example.dmaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27582325535-najsst1mpqq522qg3llj24l6ebcn8f97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dmaid",
+            "certificate_hash": "5657372b31b48360837b0ecc77943ff8d703ba03"
+          }
+        },
+        {
+          "client_id": "27582325535-g6ro2l336hshorh57g3idm1bldvkv0ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnIdpNUh_SodlTP80ZVYx8mptGNaUbyo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27582325535-g6ro2l336hshorh57g3idm1bldvkv0ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

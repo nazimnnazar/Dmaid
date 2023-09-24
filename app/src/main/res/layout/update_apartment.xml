@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/apname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:hint="Apartment Name"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/apcluster"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:hint="Cluster "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/aparea"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Area" />
+
+    <EditText
+        android:id="@+id/apcity"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="City"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/appin"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Pin"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update Apartment" />
+
+
+
+
+</LinearLayout>

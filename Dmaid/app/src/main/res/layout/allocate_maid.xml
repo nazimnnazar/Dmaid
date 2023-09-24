@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+    <EditText
+        android:id="@+id/startingdateed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/apartmentsizeed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/freequencyed"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/daysed"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+
+
+    <EditText
+        android:id="@+id/shifted"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="number" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Maid :"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/maidname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="10dp" />
+
+
+    <TextView
+        android:id="@+id/maid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Maid 2 :"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/maidname1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="10dp" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Allocate Maid" />
+
+
+
+
+</LinearLayout>

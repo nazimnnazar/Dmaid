@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/mfname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mlname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name" />
+
+    <EditText
+        android:id="@+id/musername"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Username"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/marea"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Area"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mcity"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="City"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mphnnum"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/mpass"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/mcluster"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Cluster"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@drawable/et_style"
+        android:inputType="textPersonName" />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update Maid" />
+
+
+
+
+    </LinearLayout>

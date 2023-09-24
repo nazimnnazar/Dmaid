@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Customer.Payment"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="231dp"
+            android:layout_height="33dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:text="PAYMENT METHOD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView32"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="35dp">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/phnpay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/gpay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ptm" />
+            </LinearLayout>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Credit/Debit card"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/radioGroup1"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bank Name "
+            android:textColor="@color/black"
+            android:layout_below="@+id/textView34"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="336dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView35"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Your Bank Name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card Number"
+            android:textColor="@color/black"
+            android:layout_below="@+id/editTextTextPersonName2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="336dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView36"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Your Card Number"
+            android:inputType="number"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:layout_below="@+id/editTextNumber"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="90dp"/>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CVV"
+            android:textColor="@color/black"
+            android:layout_below="@+id/editTextNumber"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="260dp"/>
+
+        <EditText
+            android:id="@+id/editTextDate2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView37"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:hint="Date"
+            android:gravity="center"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView38"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="CCV Number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One Time Password"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_below="@+id/editTextNumber2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp" />
+
+
+
+
+        <EditText
+            android:id="@+id/editTextNum1"
+            android:layout_width="336dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/textView39"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/et_style"
+            android:ems="10"
+            android:inputType="number"/>
+
+
+        <Button
+            android:id="@+id/confirmbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="confirm"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="140dp"
+            android:layout_below="@+id/editTextNum1"/>
+
+
+    </RelativeLayout>
+</ScrollView>
